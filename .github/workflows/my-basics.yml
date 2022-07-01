@@ -19,7 +19,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
  my_testing:
-   runs-on: ubuntu-latestxzy
+   runs-on: ubuntu-latest
    steps:
    - name: Print Hello Message in Testing
      run: echo "Hello World from Testing job"
